@@ -3,14 +3,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="4"
-CROS_WORKON_PROJECT="coreos/init"
+CROS_WORKON_PROJECT="mediadepot/coreos-init"
 CROS_WORKON_LOCALNAME="init"
 CROS_WORKON_REPO="git://github.com"
 
 if [[ "${PV}" == 9999 ]]; then
 	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 else
-	CROS_WORKON_COMMIT="49cece6a0aed61dfdffaa1cb511b6d7e0b5dedad"
+	CROS_WORKON_COMMIT="mediadepot"
 	KEYWORDS="amd64 arm arm64 x86"
 fi
 
